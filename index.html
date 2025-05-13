@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link type="text/css" rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="product">
+      <div id="product-image"></div>
+      <div id="product-details">
+        <div id="product-type"><p>Perfume</p></div>
+        <div id="product-name">
+          <p>
+            Gabrielle Essence<br />
+            Eau De Parfum
+          </p>
+        </div>
+        <div id="product-description">
+          <p>
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+        </div>
+        <div id="product-price">
+          <p class="discount">$149.99</p>
+          <p class="original">$169.99</p>
+        </div>
+        <div id="add-to-cart">
+          <button>
+            <img src="images\icon-cart.svg" />
+            <p>Add to cart</p>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">koragami</a>.
+    </div>
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+  </body>
+</html>
