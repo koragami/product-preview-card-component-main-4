@@ -71,7 +71,7 @@ body {
 #product-price {
   display: inline-flex;
   padding-top: 10px;
-  color: rgb(0, 178, 0);
+  color: hsl(158, 36%, 37%);
 }
 
 #product-price p {
@@ -100,7 +100,7 @@ body {
   align-items: center;
   width: 100%;
   height: clamp(3vh, 3em, 300px);
-  background-color: rgb(0, 178, 0);
+  background-color: hsl(158, 36%, 37%);
   border-style: none;
   border-radius: 10px;
   color: #fff;
@@ -108,7 +108,7 @@ body {
 }
 
 #add-to-cart button:hover {
-  background-color: rgb(0, 154, 0);
+  background-color: rgb(1, 83, 1);
 }
 
 #add-to-cart img {
